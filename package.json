@@ -1,0 +1,16 @@
+{
+  "name": "Lightning-Moon-DOCS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MRHACO/Lightning-Moon-DOCS.git",
+  "author": "MR.HACO <jasonytonlinecomeandsee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --port 80",
+    "build": "vuepress build docs",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.39"
+  }
+}
